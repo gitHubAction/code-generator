@@ -5,16 +5,10 @@
     <modelVersion>4.0.0</modelVersion>
     <modules>
         <module>csas-core</module>
-        <module>csas-iam-starter</module>
-        <module>csas-tiny-url-starter</module>
         <module>csas-code-generator</module>
     </modules>
 
-    <parent>
-        <groupId>com.longfor.gaia.gfs</groupId>
-        <artifactId>gaia-gfs-web-parent</artifactId>
-        <version>2.0.3</version>
-    </parent>
+
     <groupId>com.longfor.csas</groupId>
     <artifactId>parent</artifactId>
     <version>1.0.0-SNAPSHOT</version>
@@ -22,8 +16,6 @@
 
 
     <properties>
-        <gaia-mybatis.version>2.0.3</gaia-mybatis.version>
-        <gaia-redis.version>2.0.3</gaia-redis.version>
         <lombok.version>1.18.12</lombok.version>
         <hutool.version>5.3.4</hutool.version>
         <poi.version>4.1.2</poi.version>
@@ -42,4 +34,15 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${spring-boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 </project>

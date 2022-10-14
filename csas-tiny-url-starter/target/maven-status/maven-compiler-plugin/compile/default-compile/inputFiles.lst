@@ -1,8 +1,0 @@
-E:\code\csas\csas-tiny-url-starter\src\main\java\com\longfor\csas\dto\ShortUrlReq.java
-E:\code\csas\csas-tiny-url-starter\src\main\java\com\longfor\csas\feign\fallback\TinyUrlFeignClientFallBack.java
-E:\code\csas\csas-tiny-url-starter\src\main\java\com\longfor\csas\config\TinyUrlConfiguration.java
-E:\code\csas\csas-tiny-url-starter\src\main\java\com\longfor\csas\config\FeignConfig.java
-E:\code\csas\csas-tiny-url-starter\src\main\java\com\longfor\csas\dto\ShortUrlResp.java
-E:\code\csas\csas-tiny-url-starter\src\main\java\com\longfor\csas\service\impl\TinyUrlServiceImpl.java
-E:\code\csas\csas-tiny-url-starter\src\main\java\com\longfor\csas\feign\TinyUrlFeignClient.java
-E:\code\csas\csas-tiny-url-starter\src\main\java\com\longfor\csas\service\TinyUrlService.java
