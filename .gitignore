@@ -1,0 +1,58 @@
+
+### Java template
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+.idea/sonarlint/issuestore/1/d/
+.idea/sonarlint/issuestore/3/6/
+.idea/sonarlint/issuestore/3/f/3f65878d7364e1abbfb8913db8b9b076e8535eac
+.idea/sonarlint/issuestore/4/0/
+.idea/sonarlint/issuestore/6/1/
+.idea/sonarlint/issuestore/6/c/
+.idea/sonarlint/issuestore/6/f/
+.idea/sonarlint/issuestore/7/0/
+.idea/sonarlint/issuestore/8/9/
+.idea/sonarlint/issuestore/8/e/
+.idea/sonarlint/issuestore/9/4/94686d4bc2dcd58d117970eaf03af5f8c63a121a
+.idea/sonarlint/issuestore/a/1/
+.idea/sonarlint/issuestore/a/3/
+.idea/sonarlint/issuestore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+.idea/sonarlint/issuestore/a/5/a5ea5c51b4a3cce1be58705cc7944f98994626d7
+.idea/sonarlint/issuestore/b/e/
+.idea/sonarlint/issuestore/d/d/
+.idea/sonarlint/issuestore/e/5/
+.idea/sonarlint/issuestore/f/2/
+.idea/sonarlint/issuestore/f/6/f6869317a3e1b46db53a6114c778fc2f30e53c31
+csas-code-generator/src/main/resources/static/
+csas-code-generator/target/generated-sources/
+csas-core/target/classes/META-INF/
+csas-core/target/classes/com/longfor/csdi/utils/
+csas-core/target/generated-sources/
+csas-iam-starter/target/classes/META-INF/spring-configuration-metadata.json
+csas-iam-starter/target/generated-sources/
+csas-tiny-url-starter/target/classes/META-INF/spring-configuration-metadata.json
+csas-tiny-url-starter/target/classes/com/lonfor/csdi/dto/ShortUrlReq$ShortUrlReqBuilder.class
+csas-tiny-url-starter/target/classes/com/lonfor/csdi/dto/ShortUrlResp$ShortUrlRespBuilder.class
+csas-tiny-url-starter/target/generated-sources/
+/.idea/

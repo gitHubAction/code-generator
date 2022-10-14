@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <modules>
+        <module>csas-core</module>
+        <module>csas-iam-starter</module>
+        <module>csas-tiny-url-starter</module>
+        <module>csas-code-generator</module>
+    </modules>
+
+    <parent>
+        <groupId>com.longfor.gaia.gfs</groupId>
+        <artifactId>gaia-gfs-web-parent</artifactId>
+        <version>2.0.3</version>
+    </parent>
+    <groupId>com.longfor.csas</groupId>
+    <artifactId>parent</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+
+    <properties>
+        <gaia-mybatis.version>2.0.3</gaia-mybatis.version>
+        <gaia-redis.version>2.0.3</gaia-redis.version>
+        <lombok.version>1.18.12</lombok.version>
+        <hutool.version>5.3.4</hutool.version>
+        <poi.version>4.1.2</poi.version>
+        <mapstruct.version>1.2.0.Final</mapstruct.version>
+        <spring-boot.version>2.2.2.RELEASE</spring-boot.version>
+        <csas-core.version>2.0.0-SNAPSHOT</csas-core.version>
+    </properties>
+
+
+    <dependencies>
+        <!-- 模型注解 -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok.version}</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+</project>

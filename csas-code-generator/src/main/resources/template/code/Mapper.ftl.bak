@@ -1,0 +1,10 @@
+package ${basePackage}.core;
+
+/**
+ * @author ${author}
+ * @description DAO基类
+ * @date ${date}
+ */
+public interface Mapper<T> extends MyBatisBaseDao<Model, PK extends Serializable> {
+
+}
